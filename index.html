@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nama Kamu | Portofolio – Machine Learning &amp; Web Developer</title>
+<meta name="description" content="Portofolio Nama Kamu: pencapaian, sertifikat, juara lomba, dan hobi Machine Learning. Lihat proyek dan video terbaru.">
+<meta name="keywords" content="portofolio, machine learning, web developer, sertifikat, juara, Nama Kamu">
+<meta name="author" content="Nama Kamu">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#050505">
+<link rel="canonical" href="https://domainkamu.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nama Kamu | Portofolio">
+<meta property="og:description" content="Pencapaian, sertifikat, juara, dan hobi Machine Learning.">
+<meta property="og:image" content="https://domainkamu.com/assets/images/banner.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔴%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="assets/images/hero.webp">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Nama Kamu","url":"https://domainkamu.com/","jobTitle":"Machine Learning Enthusiast & Web Developer","description":"Portofolio pribadi berisi pencapaian, sertifikat, dan juara."}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Lewati ke konten</a>
+<header class="nav" id="nav">
+  <a class="logo" href="#top">NAMA<b>KAMU</b></a>
+  <nav aria-label="Menu utama"><a href="#top">Home</a><a href="#about">About</a><a href="#achievement">Achievement</a><a href="#hobby">Hobby ML</a><a href="#sertifikat">Sertifikat</a></nav>
+  <div class="tools">
+    <button id="musicBtn" class="icon" aria-label="Putar musik tema" title="Musik tema">♫</button>
+    <button id="setBtn" class="icon" aria-label="Buka pengaturan" title="Pengaturan">⚙</button>
+    <a class="btn sm" href="#kontak">Contact me</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <img class="banner" src="assets/images/banner.webp" alt="" width="1600" height="900" fetchpriority="high">
+  <h1 class="bigname" id="bigname">Nama<span>Kamu</span></h1>
+  <img class="portrait" src="assets/images/hero.webp" alt="Foto Nama Kamu" width="600" height="800" fetchpriority="high">
+  <p class="role">Machine Learning &amp; Web Developer</p>
+  <div class="side"><a href="https://instagram.com/" target="_blank" rel="noopener">IG</a><a href="https://linkedin.com/" target="_blank" rel="noopener">IN</a><a href="https://github.com/" target="_blank" rel="noopener">GH</a></div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div>
+      <h2>About<em>Me</em></h2>
+      <dl class="info"><dt>Nama</dt><dd>Nama Kamu</dd><dt>Lokasi</dt><dd>Kota, Indonesia</dd><dt>Peran</dt><dd>ML Engineer &amp; Web Developer</dd><dt>Status</dt><dd>Pelajar / Mahasiswa</dd></dl>
+      <a class="btn" href="assets/cv.pdf" download>Download CV</a>
+    </div>
+    <div>
+      <p class="bio">Saya membuat aplikasi web dari sisi depan sampai belakang, dan suka bereksperimen dengan Machine Learning. Ganti paragraf ini dengan cerita singkat tentang kamu: apa yang kamu kerjakan, sejak kapan, dan apa yang sedang kamu pelajari.</p>
+      <div class="skills">
+        <div class="sk"><h4>Software</h4><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>React</span></div>
+        <div class="sk"><h4>Machine Learning</h4><span>TensorFlow</span><span>PyTorch</span><span>Pandas</span><span>OpenCV</span></div>
+        <div class="sk"><h4>Tools</h4><span>Git</span><span>Linux</span><span>Docker</span><span>SQL</span></div>
+        <div class="sk"><h4>Soft skills</h4><span>Teamwork</span><span>Problem solving</span><span>Mentoring</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marq" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="achievement" class="sec">
+  <div class="head"><h2>Achievement</h2>
+    <div class="arrows"><button class="icon" id="prev" aria-label="Sebelumnya">‹</button><button class="icon" id="next" aria-label="Berikutnya">›</button></div></div>
+  <p class="sub">Geser atau klik panah. Klik kartu untuk melihat detail.</p>
+  <div class="slider" id="slider" tabindex="0" aria-label="Daftar achievement"></div>
+</section>
+
+<section id="hobby" class="sec">
+  <h2>Highlight Hobby: ML</h2>
+  <p class="sub">Video eksperimen Machine Learning saya. Letakkan file di <code>assets/videos/</code>.</p>
+  <div class="grid" id="videos"></div>
+</section>
+
+<section id="sertifikat" class="sec">
+  <div class="head"><h2>Sertifikat</h2>
+    <div class="arrows"><button class="icon" id="cprev" aria-label="Sertifikat sebelumnya">‹</button><button class="icon" id="cnext" aria-label="Sertifikat berikutnya">›</button></div></div>
+  <p class="sub">Klik sertifikat di tengah untuk memperbesar.</p>
+  <div class="flow" id="flow"></div>
+  <h2 class="mt">Juara</h2><div class="grid" id="wins"></div>
+</section>
+
+<section id="kontak" class="contact">
+  <h2>Let's create <em>something</em> great.</h2>
+  <div class="cinfo">
+    <div><b>Email</b><a href="mailto:email@domainkamu.com">email@domainkamu.com</a></div>
+    <div><b>Sosial</b><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a> <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></div>
+    <div><b>Waktu lokal</b><span id="clock" class="clk"></span></div>
+  </div>
+</section>
+</main>
+<footer class="foot">© <span id="yr"></span> Nama Kamu. Semua hak dilindungi.</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="box"><button class="icon close" id="mClose" aria-label="Tutup">✕</button>
+    <img id="mImg" alt="" loading="lazy"><h3 id="mTitle"></h3><p id="mText"></p></div>
+</div>
+
+<aside class="panel" id="panel" aria-label="Pengaturan" hidden>
+  <h3>Pengaturan</h3>
+  <label>Tema<select id="sTheme"><option value="dark">Gelap</option><option value="light">Terang</option></select></label>
+  <label>Warna utama<input type="color" id="sAcc"></label>
+  <label>Warna kedua<input type="color" id="sAcc2"></label>
+  <label>Ukuran teks<input type="range" id="sFont" min="14" max="20"></label>
+  <label>Intensitas glow<input type="range" id="sGlow" min="0" max="100"></label>
+  <label>Sudut kartu<input type="range" id="sRad" min="0" max="32"></label>
+  <label>Volume musik<input type="range" id="sVol" min="0" max="100"></label>
+  <label class="row">Animasi<input type="checkbox" id="sAnim"></label>
+  <label class="row">Tilt 3D<input type="checkbox" id="sTilt"></label>
+  <button class="btn ghost" id="sReset">Reset ke awal</button>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+<audio id="bgm" src="assets/audio/theme.mp3" loop preload="none"></audio>
+<script src="js/main.js" defer></script>
+</body>
+</html>
